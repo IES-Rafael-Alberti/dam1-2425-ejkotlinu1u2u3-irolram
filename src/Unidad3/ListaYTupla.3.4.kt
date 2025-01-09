@@ -1,6 +1,6 @@
 package Unidad3
 
-fun main(){
+fun LyT.3.4(){
     val numerosGanadores = mutableListOf<Int>()
 
     for(i in 1..6){

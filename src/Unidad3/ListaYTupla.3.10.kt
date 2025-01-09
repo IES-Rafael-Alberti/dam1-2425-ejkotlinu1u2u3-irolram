@@ -1,6 +1,6 @@
 package Unidad3
 
-fun main(){
+fun LyT.3.10(){
      val  precios = listOf(50,75,46,22,80,65,8)
     if (precios.isNotEmpty()){
         val meprecio = precios.minOrNull()

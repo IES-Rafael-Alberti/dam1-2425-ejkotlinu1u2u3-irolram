@@ -1,6 +1,6 @@
 package Unidad3
 
-fun main() {
+fun LyT.3.6() {
     val asignaturas: MutableList<String> = mutableListOf("Matematicas", "Historia", "Lengua", "Química", "Física")
     val asignaturasAprobadas = mutableListOf<String>()
 

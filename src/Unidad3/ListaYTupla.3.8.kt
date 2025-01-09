@@ -1,6 +1,6 @@
 package Unidad3
 
-fun main(){
+fun LyT.3.8(){
     println("Escribe una palabra: ")
     val palin: String? = readLine()
     if(palin != null){

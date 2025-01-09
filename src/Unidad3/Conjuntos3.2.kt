@@ -1,8 +1,6 @@
 package Unidad3
 
-import java.util.*
-
-fun main() {
+fun Conjuntos.3.2() {
     val alumnosDePrimaria = mutableListOf<String>()
 
     println("Introduce los nombres de los alumnos de primaria (ingresa 'x' para finalizar): ")

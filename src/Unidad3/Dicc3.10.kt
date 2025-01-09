@@ -1,6 +1,6 @@
 package Unidad3
 
-fun main() {
+fun Dicc.3.10() {
     val baseDeDatosClientes = mutableMapOf<String, MutableMap<String, Any>>()
 
     while (true) {
