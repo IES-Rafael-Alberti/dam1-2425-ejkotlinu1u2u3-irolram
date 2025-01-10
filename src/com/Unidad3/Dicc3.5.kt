@@ -1,6 +1,6 @@
 package com.Unidad3
 
-fun Dicc.3.5(){
+fun Dicc35(){
     val diccasignaturas = mapOf("Matematicas" to  6, "Fisica" to  4, "Quimica" to 5)
 
     for ((asignatura, creditos) in diccasignaturas){

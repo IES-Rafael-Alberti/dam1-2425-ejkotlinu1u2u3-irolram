@@ -3,28 +3,40 @@ package com.Unidad2
 fun menuUnidad2() {
     println("Bienvenido al Menú de la Unidad 2")
 
-    println("Elija a continuación el ejercicio que desee probar: ")
-    var ejercicio_para_probar = readline()
+    var salir = false
+    try {
+        while (!salir){
 
-    when (ejercicio_para_probar){
-        1 -> Condicionales.2.2()
-        2 ->
-        3 ->
-        4 -> Conjuntos.3.4()
-        5 -> Conjuntos.3.5()
-        6 -> Conjuntos.3.6()
-        7 -> Dicc.3.3()
-        8 -> Dicc.3.5()
-        9 -> Dicc.3.6()
-        10 -> Dicc.3.7()
-        11 -> Dicc.3.8()
-        12 -> Dicc.3.10()
-        13 -> Dicc.3.11()
-        14 -> LyT.3.4()
-        15 -> LyT.3.6()
-        16 -> LyT.3.8()
-        17 -> LyT.3.9()
-        18 -> LyT.3.10()
-        19 -> LyT.3.13()
+            println("Elija a continuación el ejercicio que desee probar desde 1 al 18, elija 0 para salir: ")
+            var ejercicio_para_probar2 = readln().toInt()
+
+
+            when (ejercicio_para_probar2){
+                1 -> condicionales22()
+                2 -> condicionales23()
+                3 -> condicionales26()
+                4 -> condicionales28()
+                5 -> condicionales210()
+                6 -> excepciones22()
+                7 -> excepciones23()
+                8 -> excepciones24()
+                9 -> iterativas22()
+                10 -> iterativas24()
+                11 -> iterativas26()
+                12 -> iterativas27()
+                13 -> iterativas28()
+                14 -> iterativas213()
+                15 -> iterativas215()
+                16 -> iterativas218()
+                17 -> iterativas219()
+                18 -> iterativas225()
+                0 -> salir = true
+                else -> println("Opción no válida")
+            }
+        }
+    }catch (e:NumberFormatException){
+        println("Por favor introduce un número válido")
     }
+
+
 }

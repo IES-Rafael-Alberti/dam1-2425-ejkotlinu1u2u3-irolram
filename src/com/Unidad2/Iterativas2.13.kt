@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main(){
+fun iterativas213(){
     println("Escriba algun texto, introduzca 'salir' para finalizar: ")
     var entrada: String? = readLine()
     while (entrada?.lowercase() != "salir"){

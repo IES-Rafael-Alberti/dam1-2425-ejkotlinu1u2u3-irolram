@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main(){
+fun iterativas27(){
     println("Introduzca la tabla que desea mirar: ")
 
     val tabla: Int? = readLine()?.toIntOrNull()

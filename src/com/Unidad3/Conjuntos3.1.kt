@@ -15,7 +15,7 @@ fun domicilioFactura(compras: Array<Array<Any>>): Array<String>{
 }
 
 
-fun Conjuntos.3.1(){
+fun Conjuntos31(){
     val compras = arrayOf<Array<Any>>(
         arrayOf("Nuria Costa", 5, 12780.78, "Calle Las Flores 355"),
         arrayOf("Jorge Russo", 7, 699.0, "Mirasol 218"),

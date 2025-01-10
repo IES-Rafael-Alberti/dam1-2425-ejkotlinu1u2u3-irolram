@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main(){
+fun condicionales210(){
     println("¿Quiere una pizza vegetariana? (Sí/No): ")
     val vegane: Boolean = readLine()?.equals("Si", ignoreCase = true) ?: false
     if (vegane){
@@ -14,12 +14,12 @@ fun ingredientesvegane(){
     println("Elija entre opcion 1 y 2:")
     val opcion: Int? = readLine()?.toIntOrNull()
     if (opcion != null && opcion in 1..2) {
-        val ingredientesvegane = when (opcion){
+        val ingredientesvegan = when (opcion){
             1 -> "Pimientos"
             2 ->"Tofu"
             else ->"ERROR"
         }
-        print("Ha elegido la pizza vegetariana con los siguientes ingredientes: $ingredientesvegane, mozzarella y tomate")
+        print("Ha elegido la pizza vegetariana con los siguientes ingredientes: $ingredientesvegan, mozzarella y tomate")
     }else{
         println("Error")
     }
@@ -32,13 +32,13 @@ fun ingredientesnovegane(){
     val opcion: Int? = readLine()?.toIntOrNull()
 
     if (opcion != null && opcion in 1..3) {
-        val ingredientenovegane = when (opcion) {
+        val ingredientenovegan = when (opcion) {
             1 -> "Peperoni"
             2 -> "Jamón"
             3 -> "Salmón"
             else -> "Error"
         }
-        println("Ha elegido la pizza vegetariana con los siguientes ingredientes: $ingredientenovegane, mozzarella y tomate")
+        println("Ha elegido la pizza vegetariana con los siguientes ingredientes: $ingredientenovegan, mozzarella y tomate")
     }else{
         println("Error")
 

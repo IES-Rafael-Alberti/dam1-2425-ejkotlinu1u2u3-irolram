@@ -2,7 +2,7 @@ package com.Unidad3
 
 import kotlin.math.sqrt
 
-fun LyT.3.13(){
+fun LyT313(){
 
     println("Di numeros separados por coma:  ")
     var numerox : String = readln()

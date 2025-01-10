@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main(){
+fun iterativas24(){
     println("Introduzca un número mayor que 0: ")
     val numero: Int? = readLine()?.toIntOrNull()
     if (numero != null && numero > 0){

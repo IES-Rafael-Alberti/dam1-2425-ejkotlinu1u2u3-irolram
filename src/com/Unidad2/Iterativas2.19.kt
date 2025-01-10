@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main(){
+fun iterativas219(){
     var continuar = true
     while(continuar) {
         print("Menú: 1- Comenzar programa, 2- imprimir listado, 3-finalizar")

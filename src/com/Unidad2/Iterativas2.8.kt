@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main() {
+fun iterativas28() {
     println("Introduzca un número entero: ")
     val altura: Int? = readLine()?.toIntOrNull()
 

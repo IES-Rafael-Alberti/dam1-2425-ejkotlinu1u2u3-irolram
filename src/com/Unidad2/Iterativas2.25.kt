@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main(){
+fun iterativas225(){
     println("Escriba una frase: ")
     val info: String? =  readLine()
     if (info != null && info.isNotBlank()) {

@@ -1,6 +1,6 @@
 package com.Unidad3
 
-fun Dicc.3.8(){
+fun Dicc38(){
     val dicc = mutableMapOf<String, String>()
     println("Escriba las palabras español e ingles separados por dos puntos: <palabra>:<traducción>")
     val entrada = readLine()

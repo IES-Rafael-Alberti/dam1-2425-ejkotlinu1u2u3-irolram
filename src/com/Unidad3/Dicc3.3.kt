@@ -1,6 +1,6 @@
 package com.Unidad3
 
-fun Dicc.3.3(){
+fun Dicc33(){
     val listfruta = mapOf("Platano" to 1.35, "Manzana" to 0.80, "Pera" to 0.85, "Naranja" to 0.70)
     println("Lista de Frutas : $listfruta")
     println("¿Que fruta quiere?: ")

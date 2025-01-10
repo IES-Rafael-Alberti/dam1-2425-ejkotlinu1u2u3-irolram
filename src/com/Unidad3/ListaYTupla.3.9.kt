@@ -1,6 +1,6 @@
 package com.Unidad3
 
-fun LyT.3.9(){
+fun LyT39(){
     println("Ingresa una palabra: ")
     val palabra = readLine() ?: ""
 

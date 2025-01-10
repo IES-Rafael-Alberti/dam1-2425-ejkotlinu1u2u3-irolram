@@ -1,11 +1,11 @@
 package com.Unidad3
 
-fun Conjuntos.3.2() {
+fun Conjuntos32() {
     val alumnosDePrimaria = mutableListOf<String>()
 
-    println("Introduce los nombres de los alumnos de primaria (ingresa 'x' para finalizar): ")
+    println("Introduce los nombres de los alumnos de primaria (ingresa x para finalizar): ")
     var nombrePrimaria: String? = readLine()
-    while (nombrePrimaria?.lowercase(Locale.getDefault()) != "x") {
+    while (nombrePrimaria != null && nombrePrimaria.lowercase() != "x") {
         alumnosDePrimaria.add(nombrePrimaria ?: "")
         nombrePrimaria = readLine()
     }
@@ -14,7 +14,7 @@ fun Conjuntos.3.2() {
 
     println("Introduce los nombres de los alumnos de secundaria (ingresa 'x' para finalizar): ")
     var nombreDeSecundaria: String? = readLine()
-    while (nombreDeSecundaria?.lowercase(Locale.getDefault()) != "x") {
+    while (nombreDeSecundaria != null && nombreDeSecundaria.lowercase() != "x") {
         alumnosSecundaria.add(nombreDeSecundaria ?: "")
         nombreDeSecundaria = readLine()
     }

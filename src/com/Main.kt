@@ -13,14 +13,23 @@ fun main(){
             0 -> Salir
     """.trimIndent()
 
-    println(menu)
-    var unidad = readLine()?.toInt()
+    var salir = false
+    try {
+        while (!salir){
+            println(menu)
+            var unidad = readLine()?.toInt()
+            when(unidad){
+                1 -> menuUnidad1()
+                2 -> menuUnidad2()
+                3 -> menuUnidad3()
+                0 -> salir = true
+                else -> println("Número inválido")
 
-    when(unidad){
-        1 -> menuUnidad1()
-        2 -> menuUnidad2()
-        3 -> menuUnidad3()
-        0 -> println("Adios")
-        else -> println("Número inválido")
+            }
+        }
+    }catch (e:NumberFormatException){
+        println("Por favor introduce un número válido")
     }
+
+
 }

@@ -1,6 +1,6 @@
 package com.Unidad3
 
-fun Dicc.3.6(){
+fun Dicc36(){
     val infoUsu = mutableMapOf<String, Any>()
     var continuar = true
     while(continuar) {

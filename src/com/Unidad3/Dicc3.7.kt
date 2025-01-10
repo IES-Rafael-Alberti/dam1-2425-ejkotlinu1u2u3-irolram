@@ -1,6 +1,6 @@
 package com.Unidad3
 
-fun Dicc.3.7() {
+fun Dicc37() {
     val cesta = mutableMapOf<String, Double>()
     var continuar = true
     while (continuar) {

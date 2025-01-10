@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main(){
+fun excepciones22(){
     println("Introduzca un número positivo:")
     val numero: Int? = readLine()?.toIntOrNull()
     if (numero != null && numero > 0){

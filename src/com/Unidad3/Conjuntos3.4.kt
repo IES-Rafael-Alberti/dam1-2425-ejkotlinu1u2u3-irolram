@@ -1,6 +1,6 @@
 package com.Unidad3
 
-fun Conjuntos.3.4(){
+fun Conjuntos34(){
     val set_frutas1 = mutableSetOf ("manzana", "pera", "naranja", "plátano", "uva")
     val set_frutas2 = mutableSetOf ("manzana", "pera", "durazno", "sandía", "uva")
 

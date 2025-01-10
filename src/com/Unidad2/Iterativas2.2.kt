@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main(){
+fun iterativas22(){
     println("Introduzca su edad: ")
     val edad: Int? = readLine()?.toIntOrNull()
     if(edad != null && edad > 0){

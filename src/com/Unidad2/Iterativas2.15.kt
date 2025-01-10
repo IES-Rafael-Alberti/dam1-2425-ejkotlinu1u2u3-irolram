@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main() {
+fun iterativas215() {
     println("Introduce un numero: ")
     var entradaNum: Int? = readLine()?.toIntOrNull()
     var sumatoria = 0

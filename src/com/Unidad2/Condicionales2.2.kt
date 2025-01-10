@@ -1,11 +1,11 @@
 package com.Unidad2
 
-fun main(){
+fun condicionales22(){
 
     val contraAlmacenada = "arte"
     println("Escriba su contraseña: ")
-    val contraseñaUsu: String? = readLine()
-    if(contraseñaUsu != null && contraseñaUsu.equals(contraAlmacenada, ignoreCase = true)){
+    val contrasenaUsu: String? = readLine()
+    if(contrasenaUsu != null && contrasenaUsu.equals(contraAlmacenada, ignoreCase = true)){
         print("ta bueno")
     }else{
         println("Ta malo")

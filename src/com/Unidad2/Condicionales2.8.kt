@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main(){
+fun condicionales28(){
     println("Ingrese su puntuación (0.0, 0.4, 0.6...): ")
     val puntuacion: Double? = readLine()?.toDouble()
     val salario = 2400

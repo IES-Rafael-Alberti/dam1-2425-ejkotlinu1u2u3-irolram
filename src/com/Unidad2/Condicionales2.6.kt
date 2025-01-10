@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main(){
+fun condicionales26(){
     println("Escriba su nombre: ")
     val nombre: String? = readLine()
     println("Ingrese sexo (F/M): ")

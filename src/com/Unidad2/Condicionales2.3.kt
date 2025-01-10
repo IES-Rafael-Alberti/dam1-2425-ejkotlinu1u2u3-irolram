@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main(){
+fun condicionales23(){
     println("Escriba un número: ")
     val uno: Int? = readLine()?.toIntOrNull()
     println("Escriba otro número: ")

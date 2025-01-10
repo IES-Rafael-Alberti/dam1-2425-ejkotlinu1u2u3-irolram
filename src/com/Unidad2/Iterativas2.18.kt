@@ -1,6 +1,6 @@
 package com.Unidad2
 
-fun main() {
+fun iterativas218() {
     println("Introduce un número entero positivo (ingresa 0 para finalizar): ")
     var eNum: Int? = readLine()?.toIntOrNull()
 

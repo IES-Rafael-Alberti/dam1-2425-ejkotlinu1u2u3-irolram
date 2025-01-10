@@ -1,6 +1,6 @@
 package com.Unidad3
 
-fun Conjuntos.3.5(){
+fun Conjuntos35(){
     val numeros = mutableSetOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
     val pares = numeros.filter { it % 2 == 0 }.toSet()
     val multiplo_de_tres = numeros.filter { it % 3 == 0 }.toSet()
